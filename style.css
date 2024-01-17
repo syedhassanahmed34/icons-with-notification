@@ -1,0 +1,55 @@
+img{
+    height: 25px;
+    width: 50px;
+    margin: 5px;
+}
+i{
+    font-size: 20px;
+    color: blue;
+}
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+}
+.notification{
+    color: darkgrey;
+    text-decoration: none;
+    padding: 15px 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+.notification:hover{
+    text-decoration: underline;
+    background: lightgray;
+}
+.notification .badge{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 10px 19px;
+    border-radius: 90%;
+    /* background-color: silver; */
+    color: black;
+}
+.end-notifications .badge{
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    padding: 10px 19px;
+    border-radius: 90%;
+    color: black;
+}
+.end-notifications:hover{
+    background: lightgray;
+}
+.center-icons{
+    margin: 0px 4px;
+}
+pre{
+    display: inline-block;
+    font-size: 15px;
+}
